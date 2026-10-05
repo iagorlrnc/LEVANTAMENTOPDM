@@ -36,7 +36,7 @@ export function LoginPage() {
               Levantamento PDM<br />2025/2026
             </h1>
             <p className="text-lg text-primary-200 leading-relaxed max-w-md">
-              Sistema de levantamento do Programa Pé-de-Meia da Secretaria da Educação do Estado do Tocantins.
+              Sistema de Levantamento do Programa Pé-de-Meia da Secretaria da Educação do Estado do Tocantins.
             </p>
           </div>
           <div className="space-y-3">
@@ -54,7 +54,7 @@ export function LoginPage() {
                   <path strokeLinecap="round" strokeLinejoin="round" d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4" />
                 </svg>
               </div>
-              <span className="text-sm">338 Escolas Estaduais</span>
+              <span className="text-sm">451 Escolas Estaduais</span>
             </div>
             <div className="flex items-center gap-3 text-primary-200">
               <div className="flex h-8 w-8 items-center justify-center rounded-lg bg-white/10">
@@ -62,7 +62,7 @@ export function LoginPage() {
                   <path strokeLinecap="round" strokeLinejoin="round" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" />
                 </svg>
               </div>
-              <span className="text-sm">Prazo: 26/08 a 23/11/2026</span>
+              <span className="text-sm">Prazo: Até 23/11/2026</span>
             </div>
           </div>
         </div>

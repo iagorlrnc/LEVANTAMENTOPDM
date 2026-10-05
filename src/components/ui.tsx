@@ -1,9 +1,5 @@
 import { type ReactNode, useState, useRef, useEffect } from 'react';
 
-// ========================
-// Modal
-// ========================
-
 interface ModalProps {
   open: boolean;
   onClose: () => void;
