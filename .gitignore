@@ -1,0 +1,67 @@
+# ==========================================
+# DADOS SENSÍVEIS E PLANILHAS (LGPD)
+# Planilhas e dados contendo CPF e nomes de estudantes/escolas
+# ==========================================
+*.xlsx
+*.xls
+*.csv
+*.tsv
+*.ods
+*.dump
+*.sqlite
+*.sqlite3
+*.db
+*.sql.gz
+
+# ==========================================
+# VARIÁVEIS DE AMBIENTE E CHAVES DE ACESSO
+# Nunca envie chaves de API, Service Role ou senhas
+# ==========================================
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.cert
+*.crt
+*.pfx
+*.p12
+credentials*.json
+serviceAccount*.json
+client_secret*.json
+
+# ==========================================
+# DEPENDÊNCIAS E BUILDS
+# ==========================================
+node_modules/
+dist/
+dist-ssr/
+*.local
+*.tsbuildinfo
+
+# ==========================================
+# LOGS E DEPURAÇÃO
+# ==========================================
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# ==========================================
+# EDITOR E SISTEMA OPERACIONAL
+# ==========================================
+.DS_Store
+Thumbs.db
+Desktop.ini
+.vscode/*
+!.vscode/extensions.json
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+tmp/
+temp/
